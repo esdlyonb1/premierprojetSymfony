@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+
+    {% for truc in trucs %}
+
+        <h3>{{ truc.name }}</h3>
+
+    {% endfor %}
+
+
+    <p>coucou</p>
+{% endblock %}
